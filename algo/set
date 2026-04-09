@@ -1,0 +1,24 @@
+eliminate duplicates
+declare / initialize a set
+add an element
+remove an element
+ensure uniqueness
+clear the set
+guarantee unique elements
+fast membership checking
+constant-time insertion
+avoid duplicate processing
+keep track of visited elements
+
+this improved time complexity from oh of en squared to oh of en
+I use a hash map to maintain a lookup table so I can achieve constant-time access
+
+First, I iterate over the array and store the frequency of each number in a hash map. This allows me to achieve constant-time lookup. Then, I use a set to track unique elements and avoid duplicate processing. Overall, this solution runs in Oh of n time with Oh of n space complexity.
+
+Please let me know if you wouuld like to clarify or expand on anything
+
+How to ask for clarification when you don't understand the question
+
+Before I jump into coding, I would like to clarify a few assumptions
+
+I'm available to start immediately and can adjust to your preferred start date

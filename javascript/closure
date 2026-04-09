@@ -1,0 +1,9 @@
+What is a closure
+
+we get back my secret object
+it's not something that I come up in my code
+closure variables are live references to the outer-scoped variable
+what that means is if you were to be inside of this return function
+demonstrate a good aptitude for learning
+
+closures allow you to declare private variables for objects

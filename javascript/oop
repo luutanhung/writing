@@ -1,0 +1,24 @@
+override a method to customize behavior
+abstract away implementation details
+extend a base class to reuse functionality
+design a class to handle
+
+encapsulation - bundle data and methods together, restricting direct access
+inheritance - creating new classes based on existing ones
+polomorphism - ability for methods to behave differently based on contexts.
+abstraction - hide complex implementation details and exposing the essentials
+
+construtor - special methods used to initialize objects
+
+loose coupling - components are independent, easier to maintain
+high cohesion - a class has a clear, focused responsibility
+seperation of concerns - dividing a system into distinct features
+modularity - building systems in smaller, reusuable parts
+
+interface - defines a contract that classes must follow
+abstract class - cannot be instantiated, used as a base
+method overriding - redefining a parent class method
+method overloading - multiple methods with the same name but different parameters
+dependency injection - providing dependencies externally
+
+organize codebase more effectively

@@ -1,0 +1,2 @@
+A generator function in JavaScript is used when you want to control how values are produced over time, instead of returning everything at once
+Instead of creating large arrays in memory, values are generated only when needed, saving memory

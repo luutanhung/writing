@@ -1,0 +1,22 @@
+declare / initialize a map
+create a key-value map
+insert an entry into the map
+put a value
+retrieve a value by key
+update an existing key
+remove a key
+check if a key exists
+check if a value exists
+get the size of the map
+map each element to its index
+maintain a lookup table
+override an existing value
+I use a hash map to maintain a lookup table so I can achieve constant-time access
+
+iterate over a map
+iterate over key-value pairs
+traverse the map
+loop through the entry set
+access the key set
+iterate over values
+after building the map, I iterate over the entry set to find the maximum value

@@ -1,0 +1,5 @@
+What is an array in JavaScript
+An array is an ordered collection of values. It can store multiple data types such as numbers, strings, objects, and the like in a single variable.
+
+How does includes work?
+The `includes` method determines whether an array contains a specific value among its entries. It returns true if the element is found, and false otherwise.

@@ -1,0 +1,40 @@
+pure functions are important in functional programming. Pure functions are predictable, which makes them easier to understand, debug, test than impure functions. Pure functions follow two rules:
+deterministic - given the same input, a pure function will always return the same output
+no side-effects - a side effect is any application state change that is observable outside the called function other than its return value
+
+function composition is the process of combining two or more functions to produce a new function or perform some computation
+
+no side effects - You don't change state anywhere else in the application
+only work with the things that are inside of the function
+
+I wouldn't consider that to be a side effect
+may be up for debate
+
+taking multiple funcions, putting them together, returning a function that leverages those original functions
+I don't really expect that to come up much in interviews
+
+functional programming is a programming paradigm that uses pure functions as the primary units of composition
+
+Hi, just making sure my audio is working - can you hear me
+Hi, can you hear me clearly
+
+uses functions as the unit of composition
+
+reason about = figure something out
+
+a promise is an object that represents the eventual completion or failure of an asynchronous operation
+
+waits until the promise is resolved
+
+immutability says don't change the original thing but assign that basically to a new one
+
+don't mutate the arrays itself
+
+react hooks are functions that let you use state and other React features without writing a class
+hooks offer a powerful and expressive way to compose logic inside a component
+create a mutable reference that persists for the lifetime of the component
+make it easier to share logic between components, and to reuse stateful logic without changing your component hierachy
+
+tdd is a software development approach where tests are written before the actual code
+free of bugs
+reduce bugs

@@ -1,0 +1,3 @@
+An event is an action or occurrence (like a click, key press, or page load) that JavaScript can detect and handle
+
+In JavaScript, an event is an action like a user interaction or system occurrence that the program can listen for and respond to using event handlers

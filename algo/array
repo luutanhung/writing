@@ -1,0 +1,26 @@
+interate over an array
+traverse a list
+loop through elements
+access an element by index
+retrieve a value
+append / insert / remove an element
+initialize a variable
+declare a function
+check whether each element statisfied the condition
+return a value
+update a variable
+validate input
+handle exceptions
+prefix_sum[i] represents the sum of all elelements from index 0 to i-1
+the sum from index i to index j can be calculated by subtracting prefix_sum[i] from prefix_sum[j+1]
+check whether prefix_sum[j] - target exists in a dictionary of previously seen prefix sums
+we're going to initialize it to n many zeros
+scan through the whole string
+iterate through the arrays using two nested loops
+duplicate values will appear next to each other
+if the original order matters, make a copy first
+we're considering the number of one
+used to extract elements from an arrays
+the sort method is used to sort the elements of an array in place and returns the sorted array
+use reverse() method to reverse elements in an array
+find the minimum and maximum elements within an array

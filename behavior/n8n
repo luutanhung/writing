@@ -1,0 +1,5 @@
+One of my key projects was customizing and automating workflows in ERPNext using the Frappe framework. The goal was to improve operational efficiency and reduce manual work across multiple business processes.
+I customized print formats and implemented tax rules tailored to business requirements. I also integrated Zalo for automated order confirmations, which helped streamline communication with customers.
+In terms of automation, I built workflows to handle bulk price updates for over 2000 items, significantly reducing manual effort and minimizing errors.
+In addition, I developed an interactive diary management interface using Refine and TypeScript, which was fully integrated with ERPNext and connected to automation workflows via n8n. This improved usability and provided a more seamless user experience.
+Overall, this project helped me strengthen my skills in backend development, system integration, and workflow automation, while also giving me hands-on experience with real-world business systems.

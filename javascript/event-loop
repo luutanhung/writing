@@ -1,0 +1,19 @@
+Vocab
+put it another way = when you want to rephrase or clarify a statement
+
+The call stack stores functions that are currently being executed. To put it another way, the call stack executes synchronous code. The event loop is responsible for moving callbacks of asynchronous operations to the call stack when they're ready to run.
+To be specific, when an asynchronous function like setTimeout is called, its timer is handled by the runtime environment. After the delay expires, the callback is placed into the macrotask queue. The event loop continuousely checks whether the call stack is empty. If it is, it first processed all microtasks, and then takes the next macrotask from the queue and pushes it onto the call stack for execution.
+
+The event loop is a mechanism that manages the execution of asynchronous tasks (such as callbacks, promises, and async/await), ensuring that they are processed in the correct order.
+
+This ensures that asynchronous tasks are executed in the correct order without blocking the main execution thread
+The event loop pushes it onto the callstack for execution
+
+callstack is a data structure for javascript interpreters to keep track of function calls in the program. It has two major actions.
+Whenever you call a function for its execution, you are pushing it to the stack.
+Whenever the execution is completed, the function is popped out of the stack.
+delete the function from our call stack list
+
+It stores async callbacks to be added to the call stack.
+
+It optionally returns a decorator descriptor to install on the target object.
