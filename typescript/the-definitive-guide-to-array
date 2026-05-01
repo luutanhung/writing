@@ -5,7 +5,7 @@ Link: https://hashnode.com/draft/697f02b2ad6bfd1a1ab51941
 ## Definition:
 An array is an ordered collection of values stored in a single variable.
 
-## Purpose: 
+## Purpose:
 Use an array when:
 - items are related.
 - order matters.
@@ -57,7 +57,7 @@ It is also extremely convenient for create a shallow copy of an array.
 const physicists = [{ fullName: "Galileo Galilei" }, { fullName: "Max Well" }, { fullName: "Albert Einstein" }, { fullName: "Michael Faraday" }];
 
 // Create a shallow copy from a list of greatest physicists.
-const physicistsCopy = [...physicists]; 
+const physicistsCopy = [...physicists];
 
 // Change the top-level element is not reflected in the original.
 physicistsCopy[1] = { fullName: "Paul Dirac" };
@@ -82,7 +82,7 @@ You can create an empty array by invoking `Array()` constructor with no argument
 const hasNoValues = new Array();
 ```
 
-You can pass two or more arguments, or a single non-numeric argument. Those values will become elements of the new array. 
+You can pass two or more arguments, or a single non-numeric argument. Those values will become elements of the new array.
 ```javascript
 const worldHeritageSitesInChina = new Array("Mount Taishan", "The Great Wall", "Forbidden City", "Summer Palace", "West Lake");
 ```
@@ -93,11 +93,10 @@ The `Array()` constructor does not create an array with a single numeric value. 
 It always return a new array whose elements are exactly the arguments passed to it, regards of their number of types.
 ```javascript
 const singleNum = Array.of(1975);
-// [1975] 
+// [1975]
 ```
 
 It also works with mixed types.
 ```javascript
 const mixedTypes = Array.of("Grand Canyon National Park", 1978, "Arizona", { isSpectacular: true });
 ```
-
