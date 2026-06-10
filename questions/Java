@@ -1,0 +1,7 @@
+# What are the differences between Constructors and Methods?
+Constructors are special members of a class that are automatically invoked when an object is created using the new keyword. Their primary purpose is to initialize the state of a newly created object by assigning values to instance variables or performing setup operations. Constructors do not have a return type and must have the same name as the class.
+
+Methods, on the other hand, are functions defined within a class that represent the behavior of objects. They are called explicitly and can perform operations, manipulate data, or return values. Depending on whether they are instance methods or static methods, they can belong to a specific object or to the class itself. Access modifiers determine where they can be accessed from.
+
+# What are microservices?
+Microservices are an architectural approach to software development where a large, complex application is built as a collection of small, independent services. Each service runs its own distinct process and communicates with others via lightweight APIs, allowing teams to develop, deploy, and scale features autonomously.
